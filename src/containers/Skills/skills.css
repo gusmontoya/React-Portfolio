@@ -1,0 +1,112 @@
+.gpt3__skills {
+    width: 100%;
+    display: block;
+}
+
+.gpt3__skills-heading {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+
+.gpt3__skills-heading h1 {
+    font-size: 34px;
+    line-height: 65px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.gpt3__skills-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: #104680;
+    margin-top: 2rem;
+}
+
+.container-icons {
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-icon {
+width: 12.5%;
+height: 142 px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.icon__list {
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1;
+    /* font-family */
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.box p {
+    margin-bottom: 50px;
+    line-height: 1.55;
+    font-size: 1rem;
+
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__skills {
+        flex-direction: column;
+    }
+
+    .gpt3__skills-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .gpt3__skills-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container-icons {
+        display: flex;
+    }
+    .icon__list {
+        size: 50px;
+        padding: 20px;
+        font-size: 150%;
+    }
+}
+
+/* -----------Skills icons--------------------- */
+
+.fa__icon-frontEnd {
+    display: flex;
+    flex-direction:row;
+    gap: 1.5rem;
+    margin-right: 2rem;
+    overflow: wrap;
+    line-height: 65px;
+}
+
+.icon__list {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
